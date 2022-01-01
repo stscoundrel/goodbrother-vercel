@@ -105,3 +105,4 @@ dist
 /reports
 
 .vercel
+/.DS_Store
