@@ -2,7 +2,8 @@
 
 Vercel Serverless Function for running [Goodbrother](https://github.com/stscoundrel/goodbrother). Exposes endpoint for listing open pull requests in repositories of given Github user. For example:
 
-`https://goodbrother.vercel.app/api/stscoundrel?secret=SECRET_HERE`
+`https://goodbrother.vercel.app/api/repos/stscoundrel?secret=SECRET_HERE`
+`https://goodbrother.vercel.app/api/pulls/stscoundrel?secret=SECRET_HERE`
 
 Returns a list like:
 
