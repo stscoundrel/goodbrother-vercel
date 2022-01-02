@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { getPullRequestsByUser, groupPullRequestsByRepository } from 'goodbrother';
-import { authenticate } from '../src/auth';
+import { authenticate } from '../../src/auth';
 
 export default async (request: VercelRequest, response: VercelResponse) => {
   const { username, secret } = request.query;
@@ -13,6 +13,6 @@ export default async (request: VercelRequest, response: VercelResponse) => {
       response.status(200).send(grouped);
     }
   } else {
-    response.status(401).send('Unauthorized. Provide secret as query param');
+    response.status(401).send('Unauthorized. Provide "secret" as query param');
   }
 };
