@@ -15,7 +15,7 @@
     "node": ">=12.0.0"
   },
   "dependencies": {
-    "goodbrother": "^1.0.3"
+    "goodbrother": "^1.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.16.7",
