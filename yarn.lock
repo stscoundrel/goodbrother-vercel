@@ -2984,10 +2984,10 @@ globby@^11.1.0:
     merge2 "^1.4.1"
     slash "^3.0.0"
 
-goodbrother@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/goodbrother/-/goodbrother-1.1.2.tgz#935e237febb9d3dd08bd3323788d9375188e881e"
-  integrity sha512-S5nTPxy33BvMC8CP0dtag2eVl0ag8o0iYXK5JuEWUaua42s1XxC5+ibQw5iNsBepqPF8C/ylTOjGvglvVv1CAw==
+goodbrother@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/goodbrother/-/goodbrother-1.1.4.tgz#c4e2d9e02a30f5b0a75a03388bc35e4021c29066"
+  integrity sha512-vim2eV/5fEFxOT3/qIgNAxk6E9pgtT/Rll/qjXEadgiz54HkLMs0Z//Dl2TXnU+9k6I30FXPosAD1ONOvc4Upg==
   dependencies:
     axios "^0.27.2"
 
